@@ -41,4 +41,12 @@ public class Knjiga {
 		this.izdanje = izdanje;
 	}
 
+	public LinkedList<Autori> getAutori() {
+		return autori;
+	}
+
+	public void setAutori(LinkedList<Autori> autori) {
+		this.autori = autori;
+	}
+
 }
