@@ -41,4 +41,16 @@ public class Knjiga {
 		this.izdanje = izdanje;
 	}
 
+	@Override
+	public String toString() {
+		return "Knjiga [naslov=" + naslov + ", isbn=" + isbn + ", izdavac=" + izdavac + ", izdanje=" + izdanje
+				+ ", autori=" + autori + "]";
+	}
+
+	@Override
+	public boolean equals(Object arg0) {
+		Knjiga a=(Knjiga)arg0;
+		return this.getIsbn()==a.getIsbn();
+	}
+
 }
