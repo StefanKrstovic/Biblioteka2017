@@ -52,7 +52,7 @@ public class Knjiga {
 	public boolean equals(Object arg0) {
 		Knjiga a=(Knjiga)arg0;
 		return this.getIsbn()==a.getIsbn();
-
+	}
 	public LinkedList<Autori> getAutori() {
 		return autori;
 	}
